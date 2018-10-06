@@ -1,12 +1,19 @@
 //
-//  main.swift
+//  Repeated.swift
 //  LeetCode2
 //
-//  Created by 冼 on 2018/9/28.
-//  Copyright © 2018年 Null. All rights reserved.
+//  Created by 冼 on 2018/10/7.
+//  Copyright © 2018 Null. All rights reserved.
 //
 
 import Foundation
+/**
+ 存在重复
+ 给定一个整数数组，判断是否存在重复元素。
+ 如果任何值在数组中出现至少两次，函数应该返回 true。如果每个元素都不相同，则返回 false。
+ 
+
+ **/
 class Solution7{
     
     //方法3的思路：
@@ -32,16 +39,16 @@ class Solution7{
     }
 }
 
-let arrys = [0,2,0,4]
-let c = Solution7()
-print(c.containsDuplicate(arrys))
+//let arrys = [0,2,0,4]
+//let c = Solution7()
+//print(c.containsDuplicate(arrys))
 
 
 /**
  方法1的思路：
  
-    首先拿数组一个元素，对数组所有元素进行比较，包括进行比较的元素。
-    出现两次才是重复。
+ 首先拿数组一个元素，对数组所有元素进行比较，包括进行比较的元素。
+ 出现两次才是重复。
  **/
 func containsDuplicate1(_ nums:[Int]) -> Bool{
     //返回值
