@@ -7,7 +7,3 @@
 //
 
 import Foundation
-
-var i = 0 ^ 4
-print(i);
-
